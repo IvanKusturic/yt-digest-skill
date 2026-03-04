@@ -47,9 +47,9 @@ Ask a question about the notebook sources. Options:
 
 ### Delete a notebook
 ```
-notebooklm delete <notebook_id>
+notebooklm delete -n <notebook_id> -y
 ```
-Permanently removes a notebook and all its sources.
+Permanently removes a notebook and all its sources. Use `-n` to specify the notebook ID (supports partial IDs) and `-y` to skip confirmation.
 
 ### List all notebooks
 ```

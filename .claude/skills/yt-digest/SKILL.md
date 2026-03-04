@@ -95,7 +95,7 @@ When the user indicates they're done (or explicitly asks to clean up), ask:
 
 > "Would you like me to delete the NotebookLM notebook created for this video?"
 
-- If **yes**: run `notebooklm delete <notebook_id>` and confirm deletion.
+- If **yes**: run `notebooklm delete -n <notebook_id> -y` and confirm deletion.
 - If **no**: inform the user the notebook remains available in their NotebookLM account and provide the notebook ID for future reference.
 
 ## Important Notes
